@@ -18,8 +18,8 @@ class HashCronExpressionTest extends \PHPUnit_Framework_TestCase {
    */
   public function testFactoryRecognizesTemplates()
   {
-    $this->assertEquals('H H H H/28 *', HashCronExpression::hashFactory('@annually')->getExpression());
-    $this->assertEquals('H H H H/28 *', HashCronExpression::hashFactory('@yearly')->getExpression());
+    $this->assertEquals('H H H/28 H *', HashCronExpression::hashFactory('@annually')->getExpression());
+    $this->assertEquals('H H H/28 H *', HashCronExpression::hashFactory('@yearly')->getExpression());
     $this->assertEquals('H H * * H', HashCronExpression::hashFactory('@weekly')->getExpression());
   }
 
