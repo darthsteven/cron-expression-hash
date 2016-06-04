@@ -1,2 +1,6 @@
 vendor
 .php-version
+phpunit.xml
+composer.phar
+composer.lock
+.idea
