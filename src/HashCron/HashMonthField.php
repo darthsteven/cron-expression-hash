@@ -17,10 +17,10 @@ class HashMonthField extends MonthField {
   }
 
   protected function replaceHashValueRange($value, $min, $max) {
-    if (strpos($value, 'H') !== false) {
+    if (stripos($value, 'H') !== false) {
       $twister = new twister();
       $twister->init_with_string($this->hash_data);
-      $value = preg_replace('/H/', $twister->rangeint($min, $max), $value);
+      $value = str_ireplace('H', $twister->rangeint($min, $max), $value);
     }
     return $value;
   }
