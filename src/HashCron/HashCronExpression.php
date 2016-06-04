@@ -10,8 +10,8 @@ class HashCronExpression extends CronExpression
   public static function hashFactory($expression, $hashData = '', FieldFactory $fieldFactory = null)
   {
     $mappings = array(
-      '@yearly' => 'H H H H/28 *',
-      '@annually' => 'H H H H/28 *',
+      '@yearly' => 'H H H/28 H *',
+      '@annually' => 'H H H/28 H *',
       '@monthly' => 'H H H * *',
       '@weekly' => 'H H * * H',
       '@daily' => 'H H * * *',
