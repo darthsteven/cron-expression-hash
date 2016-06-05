@@ -1,7 +1,7 @@
 PHP Cron Expression Hash Parser
 ==========================
 
-[![Latest Stable Version](https://poser.pugx.org/darthsteven/hash-cron-expression/v/stable.png)](https://packagist.org/packages/darthsteven/hash-cron-expression) [![Total Downloads](https://poser.pugx.org/darthsteven/hash-cron-expression/downloads.png)](https://packagist.org/packages/darthsteven/hash-cron-expression) [![Build Status](https://secure.travis-ci.org/darthsteven/cron-expression-hash.png)](http://travis-ci.org/darthsteven/cron-expression-hash)
+[![Latest Stable Version](https://poser.pugx.org/darthsteven/cron-expression-hash/v/stable.png)](https://packagist.org/packages/darthsteven/cron-expression-hash) [![Total Downloads](https://poser.pugx.org/darthsteven/cron-expression-hash/downloads.png)](https://packagist.org/packages/darthsteven/cron-expression-hash) [![Build Status](https://secure.travis-ci.org/darthsteven/cron-expression-hash.png)](http://travis-ci.org/darthsteven/cron-expression-hash)
 
 This builds upon the fine work done by Michael Dowling in the base [PHP Cron Expression Parser library](https://github.com/mtdowling/cron-expression)
 
