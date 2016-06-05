@@ -1,4 +1,14 @@
 {
+    "name": "darthsteven/cron-expression-hash",
+    "type": "library",
+    "description": "Hashing enabled CRON for PHP",
+    "keywords": ["cron", "schedule"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Steven Jones",
+        "email": "steven.jones@computerminds.co.uk",
+        "homepage": "https://github.com/darthsteven"
+    }],
     "require": {
         "php": ">=5.3.2",
         "mtdowling/cron-expression": "~1.1",
